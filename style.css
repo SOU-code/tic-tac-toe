@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-size: 62.5%;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  font-size: 1.6rem;
+}
+h1 {
+  margin-bottom: 2rem;
+  color: rgb(0, 26, 38);
+}
+.restart {
+  margin-top: 2.5rem;
+  height: 3.2rem;
+  width: 20rem;
+  border-radius: 1rem;
+  background-color: rgb(7, 141, 0);
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 25rem;
+  height: 25rem;
+  display: flex;
+  background-color: navy;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.row1,
+.row2,
+.row3 {
+  display: flex;
+  justify-content: space-between;
+}
+.box {
+  width: 8rem;
+  height: 8rem;
+  background-color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line {
+  position: absolute;
+  background-color: red;
+  width: 25rem;
+  height: 10px;
+}
