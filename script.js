@@ -125,7 +125,7 @@ function checkWin(boxes, totalClick, container, winner) {
 function win(winner, mainSection) {
   const overContainer = document.createElement("div");
   overContainer.style.cssText =
-    "position: absolute;background-color: rgba(0,0,0,0.6);width: 26rem;height: 26rem;top:50%;left:50%;z-index:2;transform:translate(-50%,-50%);text-align:center;padding-top:11rem;color:#fff;font-size:3rem;font-weight:800;";
+    "position: absolute;background-color: transparent;width: 100vw;height: 100vh;top:50%;left:50%;z-index:2;transform:translate(-50%,-50%);text-align:center;padding-top:11rem;color:red;font-size:3rem;font-weight:800;";
   overContainer.innerHTML = `${winner} Win`;
   mainSection.appendChild(overContainer);
 }
@@ -133,7 +133,7 @@ function win(winner, mainSection) {
 function draw(mainSection) {
   const overContainer = document.createElement("div");
   overContainer.style.cssText =
-    "position: absolute;background-color: rgba(0,0,0,0.6);width: 26rem;height: 26rem;top:50%;left:50%;z-index:2;transform:translate(-50%,-50%);text-align:center;padding-top:11rem;color:#fff;font-size:3rem;font-weight:800;";
+    "position: absolute;background-color: transparent;width: 100vw;height: 100vh;top:50%;left:50%;z-index:2;transform:translate(-50%,-50%);text-align:center;padding-top:11rem;color:red;font-size:3rem;font-weight:800;";
   overContainer.innerHTML = `Draw`;
   mainSection.appendChild(overContainer);
 }

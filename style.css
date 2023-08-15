@@ -27,6 +27,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 3;
 }
 .main {
   height: 100vh;
@@ -43,6 +44,7 @@ h1 {
   background-color: navy;
   flex-direction: column;
   justify-content: space-between;
+  z-index: 1;
 }
 .row1,
 .row2,
